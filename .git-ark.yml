@@ -1,0 +1,15 @@
+# Backup + mirror policy for the Homebrew tap. git-ark publishes this tap the
+# same way it publishes everything else — through its own client-managed mirror.
+
+# main earns the durable, client-side-encrypted S3 backup.
+backup_refs:
+  - main
+
+# Public mirror to the boomctl OSS org → github.com/boomctl/homebrew-tap.
+github:
+  enabled: true
+  visibility: public
+  owner: boomctl
+  repo: homebrew-tap
+  branches:
+    - main
