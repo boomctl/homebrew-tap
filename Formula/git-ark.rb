@@ -6,28 +6,28 @@
 class GitArk < Formula
   desc "Write-only backup vault that fronts your own git host"
   homepage "https://github.com/boomctl/git-ark"
-  version "0.3.2"
+  version "0.4.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/boomctl/git-ark/releases/download/v0.3.2/git-ark-aarch64-apple-darwin"
-      sha256 "83bfdb9a8e8bcc06be99f3708ed4c72dd85884622dcfbb297299273a056d4e42"
+      url "https://github.com/boomctl/git-ark/releases/download/v0.4.0/git-ark-aarch64-apple-darwin"
+      sha256 "90abcbc3a8aa2fa258a49d1315e2834624604b672de3852282641baeaf99fd70"
     end
     on_intel do
-      url "https://github.com/boomctl/git-ark/releases/download/v0.3.2/git-ark-x86_64-apple-darwin"
-      sha256 "871861a15a80438b8c757182423f70303ed6d3702940e5c1af5c68331f2563e7"
+      url "https://github.com/boomctl/git-ark/releases/download/v0.4.0/git-ark-x86_64-apple-darwin"
+      sha256 "ea8cd3e3f21f5c65653e4660026ed169472175e90bd1943502a8684b78ac2857"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/boomctl/git-ark/releases/download/v0.3.2/git-ark-aarch64-unknown-linux-musl"
-      sha256 "d6d51c47be03ed9176c4a9d89ac6e8b0d33b50680f73b005b70c16daf3c0be1c"
+      url "https://github.com/boomctl/git-ark/releases/download/v0.4.0/git-ark-aarch64-unknown-linux-musl"
+      sha256 "436ba073bc8e1ffae78eaf512bff92cc221fa3431decedcc61d732dfb9e70af2"
     end
     on_intel do
-      url "https://github.com/boomctl/git-ark/releases/download/v0.3.2/git-ark-x86_64-unknown-linux-musl"
-      sha256 "27efe285c93fd44ce3e406ef8a0651a9d1e37de77ee85c60af24ec1be7f61528"
+      url "https://github.com/boomctl/git-ark/releases/download/v0.4.0/git-ark-x86_64-unknown-linux-musl"
+      sha256 "3f7bc8207239306a4674dede6e0e832f8a97f77758495156adc94e95a22b4ec7"
     end
   end
 
