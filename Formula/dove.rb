@@ -5,28 +5,28 @@
 class Dove < Formula
   desc "Send a file out of your own cloud — encrypted, expiring, one command"
   homepage "https://dove.sh"
-  version "0.1.0"
+  version "0.2.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/boomctl/dove/releases/download/v0.1.0/dove-aarch64-apple-darwin"
-      sha256 "6a0650031adbcfb17ab506e93d28d00b7466e0019165bc19f42d3f802e86146f"
+      url "https://github.com/boomctl/dove/releases/download/v0.2.0/dove-aarch64-apple-darwin"
+      sha256 "157813f0b49401ebf82f48f5deec3d79be2bd87422ddf4c1035beb9f231e7ac6"
     end
     on_intel do
-      url "https://github.com/boomctl/dove/releases/download/v0.1.0/dove-x86_64-apple-darwin"
-      sha256 "7b9473de03fdc46b56153593e6ae0af020cc2b63b7f31ba281de1766d3ef8c6a"
+      url "https://github.com/boomctl/dove/releases/download/v0.2.0/dove-x86_64-apple-darwin"
+      sha256 "ad99bf4713bd181f433c3fdc5534585c7ce9cc8380056c0d759c7ad106987c7a"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/boomctl/dove/releases/download/v0.1.0/dove-aarch64-unknown-linux-musl"
-      sha256 "f3ec4d88a93c2cb2984de6c0dd171e4d4c5b02c139ba55880e36cfc9637169ec"
+      url "https://github.com/boomctl/dove/releases/download/v0.2.0/dove-aarch64-unknown-linux-musl"
+      sha256 "25538c15cb290b4cc0b3793ffcbfeed01ccebc53afa9ed7641a8829477a5a2c5"
     end
     on_intel do
-      url "https://github.com/boomctl/dove/releases/download/v0.1.0/dove-x86_64-unknown-linux-musl"
-      sha256 "bdf1de8ed6bd82c473d4522475ec16a0d2b92dca06a33550ff05bbe11bb9304e"
+      url "https://github.com/boomctl/dove/releases/download/v0.2.0/dove-x86_64-unknown-linux-musl"
+      sha256 "a9857b30c979bdbe1e128e92149b21176672c64dc99ab6794fd97d2b7e98065f"
     end
   end
 
